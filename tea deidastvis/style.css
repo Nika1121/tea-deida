@@ -1,0 +1,55 @@
+body {
+    width: 100vh;
+    background-color: hotpink;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.image {
+    position: relative;
+    top: 150px;
+    left: 600px;
+    width: 40%;
+}
+.text {
+    color: white;
+    position: relative;
+    top: -300px;
+    left: 510px;
+    font-size: 30px;
+}
+.yes {
+    position: relative;
+    top: 60px;
+    left: 630px;
+    background-color: greenyellow;
+    width: 7%;
+    border: 2PX solid green;
+    padding: 10px;
+    gap: 20px;
+}
+.yes a {
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+.nobtn {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 850px;
+    background-color: red;
+    width: 4%;
+    border: 2PX solid rgb(117, 0, 0);
+    padding: 10px;
+    gap: 20px;
+}
+.nobtn a {
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-decoration: none;
+}
